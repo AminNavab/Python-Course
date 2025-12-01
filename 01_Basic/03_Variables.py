@@ -29,6 +29,21 @@ x_4 = False
 x_5 = True
 print(x_4, x_5, sep=" - ")
 print(type(x_4),type(x_5), sep=" - ")
+## The bool() function allows you to evaluate any value, and give you True or False in return:
+print(bool("amin"))
+## false bolean:
+"""
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+bool({})
+"""
+## isinstance() function, which can be used to determine if an object is of a certain data type:
+r = 200
+print(isinstance(r, int))
 #--------------------------------------------
 # type casting
 f = int(1)   # x will be 1
