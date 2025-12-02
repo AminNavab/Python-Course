@@ -4,6 +4,11 @@ Lists are used to store multiple items in a single variable.
 Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
 
 Lists are created using square brackets"""
+"""NOTE:
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. No duplicate members."""
 # create a list:
 # (1):
 num = [1,2,3,4,5,6,7,8,9]
