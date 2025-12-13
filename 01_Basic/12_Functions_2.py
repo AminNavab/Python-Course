@@ -235,3 +235,57 @@ print(doubled)
 num = [1,2,3,4,5,6,7,8,9]
 z= list(filter(lambda a: a%2 != 0, num))
 print(z)
+# Using Lambda with sorted(): The sorted() function can use a lambda as a key for custom sorting.
+students = [("Emil", 25), ("Tobias", 22), ("Linus", 28)]
+sorted_students = sorted(students, key=lambda x: x[1])
+print(sorted_students)
+words = ["apple", "pie", "banana", "cherry"]
+sorted_words = sorted(words, key=lambda x: len(x))
+print(sorted_words)
+
+# Recursion is when a function calls itself.
+"""
+Recursion is a common mathematical and programming concept. It means that a function calls itself.
+ This has the benefit of meaning that you can loop through data to reach a result."""
+def countdown(n):
+  if n <= 0:
+    print("Done!")
+  else:
+    print(n)
+    countdown(n - 1)
+
+countdown(4)
+"""
+Base Case and Recursive Case
+Every recursive function must have two parts:
+A base case - A condition that stops the recursion
+A recursive case - The function calling itself with a modified argument
+Without a base case, the function would call itself forever, causing a stack overflow error."""
+def factorial(n):
+   if n == 0 or n == 1:
+      return 1
+   else:
+      return n * factorial(n-1)
+print(factorial(5))
+# NOTE: The base case is crucial. Always make sure your recursive function has a condition that will eventually be met.
+def fibo(n):
+   if n<=1:
+      return n
+   else:
+      return fibo(n-1)+fibo(n-2)
+print(fibo(7))
+# Recursion with Lists: Recursion can be used to process lists by handling one element at a time.
+def sum_list(numbers):
+   if len(numbers) == 0:
+      return 0
+   else:
+      return numbers[0] + sum_list(numbers[1:])
+numbers = [1,2,3,4,5,6]
+print(sum_list(numbers))
+def max_list(numbers):
+   if len(numbers)==1:
+      return numbers[0]
+   else:
+      max_res = max_list(numbers[1:])
+      return numbers[0] if numbers[0]>max_res else max_res
+print(max_list(numbers))
