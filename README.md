@@ -15,3 +15,35 @@
 
 ---
 
+# 📌 About This Course
+
+This repository is a complete Python programming course designed to take you from zero knowledge to building real-world projects.
+
+Unlike random tutorials, this course follows a structured roadmap, focusing on:
+
+- Strong fundamentals
+- Clean coding principles
+- Problem-solving mindset
+- Real project implementation
+
+If you're serious about learning programming properly — you're in the right place.
+
+---
+
+![alt text](https://files.realpython.com/media/Introduction-to-Python-3_Watermarked.9d8dfef30c96.jpg)
+
+---
+
+# 🎯 What You Will Learn
+
+✔ Programming fundamentals  
+✔ Python syntax & best practices  
+✔ Control flow & logic building  
+✔ Functions & modular programming  
+✔ Data structures  
+✔ Error handling  
+✔ Object-Oriented Programming (OOP)  
+✔ Real-world mini projects  
+
+---
+
