@@ -47,3 +47,72 @@ If you're serious about learning programming properly — you're in the right pl
 
 ---
 
+# 🗺 Learning Roadmap
+
+| Stage | Topic | Outcome |
+|-------|-------|----------|
+| 01 | Python Setup & Basics | Write your first program |
+| 02 | Variables & Data Types | Understand core data handling |
+| 03 | Conditions & Loops | Build logical thinking |
+| 04 | Functions | Write reusable code |
+| 05 | Data Structures | Manage complex data |
+| 06 | Exception Handling | Debug like a developer |
+| 07 | OOP | Think like a software engineer |
+| 08 | Projects | Apply everything practically |
+
+---
+
+# 🚀 Getting Started
+
+### Clone the repository
+
+bash
+git clone https://github.com/AminNavab/Python-Course.git
+cd Python-Course
+
+
+### Make sure Python is installed
+
+bash
+python --version
+
+
+Recommended version: Python 3.8+
+
+---
+
+
+
+# 👨‍💻 About the Author
+
+Hi, I'm AminNavab 👋  
+Passionate about teaching programming and building practical developer skills.
+
+- Focused on structured learning
+- Building beginner-friendly resources
+- Sharing knowledge through open-source
+
+GitHub: https://github.com/AminNavab
+
+---
+
+# 🤝 Contributing
+
+Contributions, improvements, and suggestions are welcome.
+
+1. Fork the repository
+2. Create a new branch
+3. Make changes
+4. Submit a Pull Request
+
+---
+
+# ⭐ Support This Project
+
+If this course helps you:
+
+- ⭐ Star the repository
+- Share it with others
+- Contribute to improve it
+
+---
